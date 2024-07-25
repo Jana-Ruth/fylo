@@ -1,0 +1,724 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+menu{
+    background-image: url(Flyo/fylo-dark-theme-landing-page-master/images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(217, 28%, 15%);
+    background-position: 55%;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding: 3rem 3rem 0rem 3rem  ;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: "Raleway Solid", sans-serif;
+
+    font-style: normal;
+    background-color: hsl(217, 28%, 15%);;
+
+}
+a:hover{
+    text-decoration: underline;
+   
+}
+
+.heropath{
+    display: flex;
+    flex-direction: column;
+}
+
+.intro{
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.intro h3{
+    font-family: "Raleway Dots", sans-serif;
+
+    font-style: normal;
+    font-size: 4.5rem;
+    width: 80%;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.intro p{
+    font-family: "Raleway Solid", sans-serif;
+
+    font-style: normal;
+    font-size: 2rem;
+    width: 60%;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    
+}
+
+ .intro button{
+    font-family: "Raleway Solid", sans-serif;
+    background-color: hsl(176, 68%, 64%);
+    font-style: normal;
+    width: 28%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border: 0rem;
+    border-radius: 3rem;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+
+}
+
+.accesssecurity{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 10rem 0rem 10rem; 
+    align-items: baseline;
+}
+
+.access{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    margin-bottom: 2rem;
+
+}
+
+.access img{
+    width: 35%;
+}
+
+.security{
+    align-items: center;
+}
+
+.security h3{
+    /* width: 100%; */
+    font-size: 1.7rem;
+    font-family: "Raleway Dots", sans-serif;
+     font-style: normal;
+     text-align: center;
+     color: white;
+}
+
+.security p{
+    /* width: 100%; */
+    font-size: 1.3rem;
+    font-family: "Raleway Solid", sans-serif;
+     font-style: normal;
+     text-align: center;
+     color: white;
+}
+
+.productive{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 3rem;
+    margin: 3rem ;
+}
+
+.stay{
+    width: 50%;
+}
+.stay h3{
+    font-family: "Raleway Dots", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 2rem;
+
+}
+
+.stay p{
+    font-family: "Raleway Solid", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 2rem;
+
+}
+
+.stay a{
+    color: aqua;
+    font-size: 1rem;
+    font-family: "Raleway Solid", sans-serif;
+}
+
+.stay a:hover{
+    box-shadow: 0px 2px 27px 0px aqua;
+    background-color: rgb(193, 248, 248);
+
+}
+
+.profile{
+    margin: 3rem 3rem;
+}
+
+.profilecards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 2rem;
+}
+.quotes{
+    margin-bottom: -0.8rem;
+    margin-left: 1.3rem;
+    
+}
+
+.card{
+    width: 30%;
+    border-radius: 0.5rem;
+    background-color:  hsl(219, 30%, 18%);
+    padding: 2rem;
+
+}
+.testimonies{
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    font-family: "Raleway solid", sans-serif;
+}
+
+
+.workname{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.wn h3{
+    color: white;
+    font-family: "Raleway Dots", sans-serif;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.wn p{
+    font-family: "Raleway solid", sans-serif;
+    color: white;
+    font-size: medium;
+}
+.workname img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+}
+
+article{
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: hsl(217, 28%, 15%);
+    border-radius: 3px;
+    margin: 11rem auto -7rem auto;
+    align-items: center;
+    padding: 3rem 8rem;
+    box-shadow: -1px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+article h3{
+    font-size: 2rem;
+    color: white;
+    font-family: "Raleway Dot", sans-serif;
+    margin-bottom: 1.7rem;
+   
+}
+
+article p{
+    font-size: 1.1rem;
+    color: white;
+    font-family: "Raleway Solid", sans-serif;
+    margin-bottom: 1.7rem;
+    text-align: center;
+}
+
+article button{
+    font-family: "Raleway Solid", sans-serif;
+    background-color: hsl(176, 68%, 64%);
+    font-style: normal;
+    width: 35%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    border: 0rem;
+    border-radius: 3rem;
+    font-size: 1rem;
+
+}
+input{
+    width: 60%;
+    padding-left: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 3rem;
+    background-color: white;
+    border: 0%;
+}
+.info{
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+    /* padding-left: 14rem; */
+}
+
+footer{
+    background-color: hsl(216, 53%, 9%);
+    padding: 10rem 3rem 4rem 3rem;
+
+}
+.gap{
+    margin-bottom: 2rem;
+}
+
+.lorem{
+    display: flex;
+justify-content: space-between;
+
+}
+
+.lorem p{
+    font-size: 1rem;
+    font-family: "Raleway Solid", sans-serif;
+    line-height: 1.2;
+
+    color: white;
+
+}
+
+.loremsub {
+    
+    display: flex;
+    gap: 2rem;
+    width: 25%;
+}
+
+  
+
+
+.lorem ion-icon{
+    fill: white;
+    width: 3rem;
+}
+
+.contact{
+ display: flex;
+ flex-direction: column;
+ gap: 2rem;
+}
+
+.contactsub{
+    display: flex;
+    gap: 2rem;
+}
+
+footer nav{
+display: flex;
+flex-direction: column;
+gap: 2rem;
+}
+
+a:hover{
+    box-shadow: 0px 2px 27px 0px white;
+     background-color: whitesmoke; 
+      
+}
+
+footer a{
+    background-color: hsl(216, 53%, 9%);
+    text-decoration: none;
+    color: white;
+    font-family: "Raleway Solid", sans-serif;
+    font-size: 1rem;
+}
+
+button:hover{
+    box-shadow: 0px 2px 27px 0px rgba(101,226,217,0.75);
+}
+
+
+
+
+.socialmedia {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.socialmedia ion-icon{
+    fill: white;
+    font-size: xx-large;
+}
+.copy{
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    margin-left: 40%;
+    font-family: "Raleway Solid", sans-serif;
+}
+
+@media screen and (max-width: 768px){
+    .intro h3{
+        font-size: 1.6rem;
+    }
+
+    .intro p {
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    .intro button{
+        width: 80%;
+    }
+
+    .accesssecurity{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .access{
+      
+        
+        margin-bottom: 2rem;
+        width: 25rem;
+
+    
+    }
+    
+    .access img{
+        width: 35%;
+    }
+    
+    .security{
+        align-items: center;
+    }
+    
+    .security h3{
+        
+        font-size: 1.6rem;
+        
+    }
+    
+    .security p{
+          
+        font-size: 1rem;
+        font-family: "Raleway Solid", sans-serif;
+         font-style: normal;
+         text-align: center;
+         color: white;
+    }
+
+    .productive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .productiveimg{
+        width: 80%;
+    }
+
+.stay{
+width: 90%
+
+}
+.stay h3{
+    font-size: 1.6rem;
+}
+
+.stay p{
+    font-size: 1rem;
+}
+
+    .profilecards{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+    article{
+        width: 90%;
+        padding: 2rem 2rem;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    article button{
+        width: 90%;
+    }
+    input{
+        width: 90%;
+    }
+    .lorem{
+        display: flex;
+        flex-direction: column;
+    }
+    .loremsub{
+        width: 70%;
+        margin-bottom: 2rem;
+        
+    }
+
+    .loremsub p{
+        font-size: 1rem;
+    }
+    
+
+    .contact{
+        margin-bottom: 2rem;
+
+    }
+
+    .contactsub p{
+        font-size: 1rem;
+    }
+
+    .copy{
+        margin-left: 6rem;
+        font-size: 1rem;
+    }
+
+    footer nav{
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    header{
+padding-left: 12px;
+padding-right: 12px;
+    }
+    header img{
+        width: 4rem;
+    }
+    nav{
+        gap: 12px;
+    }
+
+    .intro img{
+       width: 16rem; 
+    }
+
+    .intro{
+margin-left: 2%;
+margin-right: 2%;
+    }
+
+    .intro h3{
+        width: 86%;
+    }
+}
+.intro p{
+    width: 90%;
+}
+
+.access{
+    width: 22rem;
+}
+
+.productiveimg{
+    width: 16rem;
+}
+
+.stay{
+    width: 20rem;
+}
+
+.card{
+    width: 21rem;
+}
+
+.quotes{
+    margin-left: 0%;
+}
+
+article h3{
+    text-align: center;
+}
+
+.loremsub{
+    width: 20rem;
+}
+
+.copy{
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 1rem;
+}
+
+.socialmedia{
+    margin-left: 25%;
+}
+
+@media screen and (max-width: 360px){
+
+.access{
+    width: 20rem;
+}
+
+.productive{
+    margin-left: auto ;
+    margin-right: auto;
+}
+
+.stay{
+    width: 19rem;
+    margin-left: 1.5rem;
+    
+}
+
+.card{
+    width: 18rem;
+}
+
+
+.loremsub{
+    width: 18rem;
+}
+
+.copy{
+    text-align: center;
+    margin-left: 19%;
+    margin-top: 1rem;
+}
+
+.socialmedia{
+    margin-left: 22%;
+}
+
+}
+
+
+/* @media screen and (max-width: 170px){
+    header{
+padding-left: 12px;
+padding-right: 12px;
+    }
+    header img{
+        width: 1rem;
+    }
+    nav{
+        gap: 9px;
+    }
+
+    .intro img{
+       width: 2rem; 
+    }
+
+    .intro{
+margin-left: 2%;
+margin-right: 2%;
+    }
+
+    .intro h3{
+        width: 86%;
+        font-size: large;
+    }
+}
+.intro p{
+    width: 90%;
+    font-size: medium;
+}
+
+.access{
+    width: 100px;
+}
+
+.access h3{
+    font-size: large;
+}
+
+.access p{
+    font-size: medium;
+}
+
+.productiveimg{
+    width: 90px;
+}
+
+.stay{
+    width: 100px;
+}
+
+.stay h3{
+    font-size: large;
+}
+
+.stay p{
+    font-size: medium;
+}
+
+.card{
+    width: 100px;
+}
+
+.card p{
+    font-size: medium;
+}
+
+.quotes{
+    margin-left: 0%;
+}
+
+article h3{
+    text-align: center;
+    font-size: large;
+}
+
+article p{
+    font-size: medium;
+}
+
+.loremsub{
+    width: 100px;
+    font-size: medium;
+}
+
+.copy{
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 1rem;
+    font-size: medium;
+}
+
+.socialmedia{
+    margin-left: 25%;
+    font-size: medium;
+}
+ */
+
